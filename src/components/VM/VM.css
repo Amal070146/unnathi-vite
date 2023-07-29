@@ -1,0 +1,41 @@
+.vm-wrapper{
+    padding:3vh 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vm-individual{
+    display: flex;
+    gap: 15px;
+}
+.vm-individual h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.vm-individual p{
+    font-size: 20px;
+}
+.vm-svg{
+    border: 1px solid #E30069;
+    border-radius: 50%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1450px) {
+.vm-wrapper{
+    padding: 3vh 6vw;
+    gap: 3%;
+}
+}
+@media screen and (max-width: 970px){
+    .vm-individual h2{
+    font-size: 35px;
+}
+.vm-individual p{
+    font-size: 16px;
+}
+}
