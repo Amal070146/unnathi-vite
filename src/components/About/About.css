@@ -1,0 +1,40 @@
+.about-home-wrapper{
+    display: flex;
+    padding: 3vh 10vw;
+    gap: 5%;
+    align-items: center;
+}
+
+.about-home-img-wrap{
+    width:40%;
+    height: 400px;
+    background-color: black;
+}
+
+.about-home-content-wrap{
+    width: 60%;
+}
+
+.about-home-content-wrap h1{
+font-size: 60px;
+font-weight: 600;
+}
+.about-home-content-wrap p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1450px) {
+.about-home-wrapper{
+    padding: 3vh 6vw;
+    gap: 3%;
+}
+}
+
+@media screen and (max-width: 970px) {
+.about-home-content-wrap h1{
+font-size: 40px;
+}
+.about-home-content-wrap p{
+    font-size: 16px;
+}
+}
