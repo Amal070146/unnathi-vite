@@ -19,7 +19,7 @@
 
 .card {
   margin: 0 20px;
-  width: 25vw;
+  width: 450px;
   flex-shrink: 0;
   height: 320px;
   padding: 30px 20px;
@@ -38,7 +38,7 @@
 }
 
 .content {
-  height: 100%;
+  height: fit-content;
   width:auto;
   display: flex;
   gap: 20px;
@@ -55,4 +55,6 @@
 .images img{
   height: 50%;
   width: 50%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
 }
