@@ -52,7 +52,7 @@ const Testimonial = () => {
           <div class="card">
             <p>"{content}"</p>
             <div className="card-name-img">
-              <div>
+              <div className="person-name">
                 <h2>{name}</h2>
                 <p>{designation}</p>
               </div>

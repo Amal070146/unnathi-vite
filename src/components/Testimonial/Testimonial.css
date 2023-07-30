@@ -26,6 +26,7 @@
   box-sizing: border-box;
   border-radius: 3px;
   display: flex;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -38,43 +39,44 @@
   gap: 10px;
 }
 
-.content {
-  height: fit-content;
-  width: auto;
-  height: 300px;
-  display: flex;
-  gap: 20px;
+.person-name p {
+  font-size: .8rem;
+}
+
+.slider-container {
   overflow: hidden;
-  overflow-x: auto;
-  margin-top: 50px;
+  margin-top: 2rem;
+  width: 100%;
+  height: 300px;
 }
 
-.content .images {
-  animation: scroll 40s linear infinite;
+.slider-wrapper {
   display: flex;
-  gap: 1.5rem;
-  width: calc(250px * 14);
-  height: 100%;
+  gap: 1.3rem;
+  animation: slide infinite 15s linear;
 }
 
-@keyframes scroll {
+.slider-wrapper img {
+  width: 100%;
+  height: 300px;
+}
+
+@keyframes slide {
   0% {
     transform: translateX(0);
   }
 
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(-100%);
   }
 }
 
-@media (width< 768px) {
-  .content {
-    height: 210px;
+@media(width < 820px) {
+  .slider-container {
+    height: 200px;
   }
 
-  .content .images {
-    width: calc(250px * 7);
-
-    
+  .slider-wrapper img {
+    height: 200px;
   }
 }
