@@ -12,14 +12,14 @@ const Testimonial = () => {
       content:
         "Working on social projects during my internship was a powerful journey of empathy and personal growth.",
       name: "Saran S",
-      designation: "MA Public Policy & Governance,TISS Hyderabad",
+      designation: "MA Public Policy & Governance, TISS Hyderabad",
       image: img1,
     },
     {
       content:
         "My internship at UNNATHI was a life-changing experience that has made me a more passionate advocate for social policies.",
       name: "Anamika Prajin",
-      designation: "MA Public Policy & Governance,TISS Hyderabad",
+      designation: "MA Public Policy & Governance, TISS Hyderabad",
       image: img2,
     },
     {
@@ -33,14 +33,14 @@ const Testimonial = () => {
       content:
         "The team's boundless commitment and extraordinary efforts have left an indelible mark on me.",
       name: "Athira K.G.",
-      designation: "MA Public Policy & Governance,TISS Hyderabad",
+      designation: "MA Public Policy & Governance, TISS Hyderabad",
       image: img4,
     },
     {
       content:
         "My internship at UNNATHI was a life-changing experience that has made me a more passionate advocate for social policies.",
       name: "Supratim Bhattacharjee",
-      designation: "MA Public Policy & Governance,TISS Hyderabad",
+      designation: "MA Public Policy & Governance, TISS Hyderabad",
       image: img5,
     },
   ];

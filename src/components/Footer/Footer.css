@@ -21,6 +21,7 @@
 
 .footer-toper a{
     color: black;
+    font-weight: 500;
 }
 
 .footer-bottom{
@@ -33,6 +34,10 @@
 .footer-bottom>div{
     display: flex;
     gap: 20px;
+}
+.footer-bottom p{
+  font-size: 13px;
+  color: #B5B5B5;
 }
 
 @media screen and (max-width: 700px){

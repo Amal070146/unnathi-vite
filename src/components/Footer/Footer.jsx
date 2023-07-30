@@ -19,8 +19,8 @@ const Footer = () => {
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="35"
+            height="35"
             viewBox="0 0 38 38"
             fill="none"
           >
@@ -31,8 +31,8 @@ const Footer = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
+            width="35"
+            height="35"
             viewBox="0 0 40 40"
             fill="none"
           >
@@ -43,8 +43,8 @@ const Footer = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="41"
-            height="40"
+            width="35"
+            height="35"
             viewBox="0 0 41 40"
             fill="none"
           >
@@ -56,7 +56,9 @@ const Footer = () => {
             />
           </svg>
         </div>
-        <p style={{textAlign:"center"}}>Copyright © 2023 All Rights Reserved. Unnathi x GTech MuLearn</p>
+        <p style={{ textAlign: "center" }}>
+          Copyright © 2023 All Rights Reserved. Unnathi x GTech MuLearn
+        </p>
       </div>
     </div>
   );

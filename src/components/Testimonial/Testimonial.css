@@ -15,14 +15,15 @@
   overflow: hidden;
   overflow-x: scroll;
   width: 90%;
+  gap: 20px;
 }
 
 .card {
-  margin: 0 20px;
-  width: 450px;
+  margin: 0 0px;
+  width: 44vw;
   flex-shrink: 0;
-  height: 320px;
-  padding: 30px 20px;
+  height: 46vh;
+  padding: 3vh 5vw 0vh;
   box-sizing: border-box;
   border-radius: 3px;
   display: flex;
@@ -30,17 +31,24 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url('../../assets/testimonial/bg.png') center center/cover no-repeat;
+  background: url("../../assets/testimonial/bg.png") center center/cover
+    no-repeat;
+}
+.card > p {
+  font-size: 1.5vw;
 }
 
 .card-name-img {
   display: flex;
   text-align: right;
+  width: 100%;
   gap: 10px;
+  justify-content: flex-end;
 }
 
 .person-name p {
-  font-size: .8rem;
+  font-size: 0.8rem;
+  width: 13vw;
 }
 
 .slider-container {
@@ -53,7 +61,7 @@
 .slider-wrapper {
   display: flex;
   gap: 1.3rem;
-  animation: slide infinite 8s linear;
+  animation: slide infinite 25s linear;
 }
 
 .slider-wrapper img {
@@ -65,13 +73,16 @@
   0% {
     transform: translateX(0);
   }
+  50% {
+    transform: translateX(-50%);
+  }
 
   100% {
     transform: translateX(-100%);
   }
 }
 
-@media(width < 820px) {
+@media (width < 820px) {
   .slider-container {
     height: 200px;
   }
@@ -79,4 +90,18 @@
   .slider-wrapper img {
     height: 200px;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 450px;
+    height: 300px;
+    padding: 20px 40px 0vh;
+  }
+  .person-name p {
+    width: 100%;
+  }
+  .card > p {
+  font-size: 18px;
+}
 }
