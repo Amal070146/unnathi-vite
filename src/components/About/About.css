@@ -39,3 +39,11 @@ font-size: 40px;
     font-size: 16px;
 }
 }
+@media screen and (max-width: 760px){
+.about-home-wrapper{
+    flex-direction: column;
+}
+.about-home-img-wrap,.about-home-content-wrap{
+    width: 90%;
+}
+}

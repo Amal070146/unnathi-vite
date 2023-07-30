@@ -56,7 +56,7 @@ const Footer = () => {
             />
           </svg>
         </div>
-        <p>Copyright © 2023 All Rights Reserved. Unnathi x GTech MuLearn</p>
+        <p style={{textAlign:"center"}}>Copyright © 2023 All Rights Reserved. Unnathi x GTech MuLearn</p>
       </div>
     </div>
   );
