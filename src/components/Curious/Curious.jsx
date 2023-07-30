@@ -5,7 +5,7 @@ const Curious = () => {
   return (
     <div className="curious-wrapper">
       <h1>
-        Curious about becoming <span className="color-font">one of us</span>?
+        <span className="color-font">Join</span> Us
       </h1>
       <div className="curious-content-wrapper">
         <div>
@@ -21,6 +21,9 @@ const Curious = () => {
           <p>Finance Department</p>
         </div>
         <div>
+          <p>Project Department</p>
+        </div>
+        <div>
           <p>Legal and Documentation Department</p>
         </div>
       </div>
@@ -33,7 +36,7 @@ const Curious = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7"
-                height="13"
+                height="11"
                 viewBox="0 0 11 19"
                 fill="none"
               >
@@ -46,7 +49,7 @@ const Curious = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7"
-                height="13"
+                height="11"
                 viewBox="0 0 11 19"
                 fill="none"
               >
@@ -59,7 +62,7 @@ const Curious = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7"
-                height="13"
+                height="11"
                 viewBox="0 0 11 19"
                 fill="none"
               >
@@ -80,7 +83,7 @@ const Curious = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7"
-                height="13"
+                height="11"
                 viewBox="0 0 11 19"
                 fill="none"
               >
@@ -93,7 +96,7 @@ const Curious = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7"
-                height="13"
+                height="11"
                 viewBox="0 0 11 19"
                 fill="none"
               >
@@ -106,7 +109,7 @@ const Curious = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="7"
-                height="13"
+                height="11"
                 viewBox="0 0 11 19"
                 fill="none"
               >

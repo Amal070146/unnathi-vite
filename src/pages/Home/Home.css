@@ -11,7 +11,9 @@
   height: 100%;
   color: white;
   text-align: center;
-  background: url("../../assets/gallery/img3.png") center center/cover no-repeat;
+
+  background: #fff url("../../assets/gallery/img3.png") center center/cover
+    no-repeat;
 }
 .home-screen-wrapper h2 {
   font-size: 60px;
@@ -78,7 +80,7 @@ button {
 
 .unu,
 .doi,
-.trei{
+.trei {
   -webkit-animation: mouse-scroll 1s infinite;
   -moz-animation: mouse-scroll 1s infinite;
   animation: mouse-scroll 1s infinite;
@@ -102,7 +104,7 @@ button {
   animation-delay: 0.2s;
   animation-direction: alternate;
 
-    margin-top: -18px;
+  margin-top: -18px;
 }
 
 .trei {
@@ -115,7 +117,6 @@ button {
 
   margin-top: -18px;
 }
-
 
 @-webkit-keyframes mouse-wheel {
   0% {

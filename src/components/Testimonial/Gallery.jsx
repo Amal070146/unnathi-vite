@@ -3,6 +3,8 @@ import "./Testimonial.css";
 import img1 from "../../assets/gallery/img1.png";
 import img2 from "../../assets/gallery/img2.png";
 import img3 from "../../assets/gallery/img3.png";
+import img4 from "../../assets/gallery/img4.png";
+import img5 from "../../assets/gallery/img5.png";
 
 const Gallery = () => {
 
@@ -13,9 +15,8 @@ const Gallery = () => {
         <img className="slideshow-image" src={img1} alt="Image " />
         <img className="slideshow-image" src={img2} alt="Image 2" />
         <img className="slideshow-image" src={img3} alt="Image 3" />
-        <img className="slideshow-image" src={img1} alt="Image 1" />
-        <img className="slideshow-image" src={img2} alt="Image 2" />
-        <img className="slideshow-image" src={img3} alt="Image 3" />
+        <img className="slideshow-image" src={img4} alt="Image 1" />
+        <img className="slideshow-image" src={img5} alt="Image 2" />
       </div>
     </div>
   );
