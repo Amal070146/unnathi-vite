@@ -32,7 +32,7 @@ const Curious = () => {
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10"
+                width="7"
                 height="13"
                 viewBox="0 0 11 19"
                 fill="none"
@@ -45,7 +45,7 @@ const Curious = () => {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10"
+                width="7"
                 height="13"
                 viewBox="0 0 11 19"
                 fill="none"
@@ -58,7 +58,7 @@ const Curious = () => {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10"
+                width="7"
                 height="13"
                 viewBox="0 0 11 19"
                 fill="none"
@@ -79,7 +79,7 @@ const Curious = () => {
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10"
+                width="7"
                 height="13"
                 viewBox="0 0 11 19"
                 fill="none"
@@ -92,7 +92,7 @@ const Curious = () => {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10"
+                width="7"
                 height="13"
                 viewBox="0 0 11 19"
                 fill="none"
@@ -105,7 +105,7 @@ const Curious = () => {
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="10"
+                width="7"
                 height="13"
                 viewBox="0 0 11 19"
                 fill="none"

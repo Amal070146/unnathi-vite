@@ -26,6 +26,9 @@
 .navbar-wrapper a {
   color: black;
 }
+.navbar-wrapper a:hover{
+  color: #FBBA16;
+}
 
 @media screen and (max-width: 780px) {
   .navbar-mob {

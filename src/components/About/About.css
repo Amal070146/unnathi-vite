@@ -1,23 +1,24 @@
 .about-home-wrapper{
     display: flex;
-    padding: 3vh 10vw;
+    padding: 8vh 15vw;
     gap: 5%;
     align-items: center;
+    justify-content: space-between;
     background-color: #FFE9F9;
 }
 
 .about-home-img-wrap{
-    width:40%;
+    width:50%;
     height: 400px;
     background-color: black;
 }
 
 .about-home-content-wrap{
-    width: 60%;
+    width: 50%;
 }
 
 .about-home-content-wrap h1{
-font-size: 60px;
+font-size: 70px;
 font-weight: 600;
 }
 .about-home-content-wrap p{
@@ -28,6 +29,9 @@ font-weight: 600;
 .about-home-wrapper{
     padding: 3vh 6vw;
     gap: 3%;
+}
+.about-home-content-wrap p{
+    font-size: 17px;
 }
 }
 
@@ -42,6 +46,7 @@ font-size: 40px;
 @media screen and (max-width: 760px){
 .about-home-wrapper{
     flex-direction: column;
+    gap: 30px;
 }
 .about-home-img-wrap,.about-home-content-wrap{
     width: 90%;
