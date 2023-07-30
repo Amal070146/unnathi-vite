@@ -53,7 +53,7 @@
 .slider-wrapper {
   display: flex;
   gap: 1.3rem;
-  animation: slide infinite 15s linear;
+  animation: slide infinite 8s linear;
 }
 
 .slider-wrapper img {
