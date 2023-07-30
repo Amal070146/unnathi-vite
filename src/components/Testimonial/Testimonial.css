@@ -73,5 +73,7 @@
 
   .content .images {
     width: calc(250px * 7);
+
+    
   }
 }
