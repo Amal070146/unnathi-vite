@@ -1,0 +1,35 @@
+.map-wrapper{
+    width: 100%;
+    height: fit-content;
+}
+
+.map-overlapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -35vh;
+    z-index: 7000;
+    right: 10%;
+    background-color: #FBBA16;
+    border-radius: 20px;
+    padding: 30px 30px;
+    gap: 15px;
+}
+
+
+.map-overlapper h1{
+    font-weight: 600;
+}
+
+
+.map-overlapper a{
+    color: black;
+    display: flex;
+}
+
+.flex-gap10{
+    display: flex;
+    gap: 10px;
+}

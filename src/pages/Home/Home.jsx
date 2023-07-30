@@ -6,6 +6,7 @@ import VM from "../../components/VM/VM";
 import Curious from "../../components/Curious/Curious";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import Gallery from "../../components/Testimonial/Gallery";
+import Map from "../../components/Map/Map";
 const Home = () => {
   return (
     <div className="home-wrapper">
@@ -18,6 +19,7 @@ const Home = () => {
       <Curious />
       <Gallery />
       <Testimonial />
+      <Map />
     </div>
   );
 };
