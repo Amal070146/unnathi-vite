@@ -14,7 +14,7 @@
   box-sizing: border-box;
   overflow: hidden;
   overflow-x: scroll;
-  width: 95%;
+  width: 90%;
 }
 
 .card {
@@ -68,5 +68,15 @@
 
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@media(width < 820px) {
+  .slider-container {
+    height: 200px;
+  }
+
+  .slider-wrapper img {
+    height: 200px;
   }
 }
