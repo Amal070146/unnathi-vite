@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const path = useReactPath();
   const navContent = [
-    "ABOUTUS",
+    "ABOUT-US",
     "PROJECTS",
     "GOVERNING-BODY",
     "PARTNERS",
