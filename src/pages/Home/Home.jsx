@@ -7,6 +7,7 @@ import Curious from "../../components/Curious/Curious";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import Gallery from "../../components/Testimonial/Gallery";
 import Map from "../../components/Map/Map";
+import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
     <div className="home-wrapper">
@@ -20,6 +21,7 @@ const Home = () => {
       <Gallery />
       <Testimonial />
       <Map />
+      <Footer />
     </div>
   );
 };

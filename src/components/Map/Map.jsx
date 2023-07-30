@@ -25,8 +25,8 @@ const Map = () => {
           <div className="flex-gap10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="27"
-              height="27"
+              width="20"
+              height="20"
               viewBox="0 0 27 27"
               fill="none"
             >
@@ -40,7 +40,7 @@ const Map = () => {
           <div className="flex-gap10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="26"
+              width="20"
               height="20"
               viewBox="0 0 26 20"
               fill="none"
@@ -56,11 +56,11 @@ const Map = () => {
             </div>
           </div>
         </div>
-        <a href="" className="flex-gap10">
+        <a href="" className="flex-gap10 brouchure">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="17"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 17 24"
             fill="none"
           >

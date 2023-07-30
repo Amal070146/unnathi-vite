@@ -14,13 +14,14 @@
     right: 10%;
     background-color: #FBBA16;
     border-radius: 20px;
-    padding: 30px 30px;
+    padding: 5vh 3vw;
     gap: 15px;
 }
 
 
 .map-overlapper h1{
     font-weight: 600;
+    height: fit-content;
 }
 
 
@@ -32,4 +33,10 @@
 .flex-gap10{
     display: flex;
     gap: 10px;
+}
+.brouchure{
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 15px;
 }
