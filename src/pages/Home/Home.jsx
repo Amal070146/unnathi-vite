@@ -8,21 +8,19 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import Gallery from "../../components/Testimonial/Gallery";
 import Map from "../../components/Map/Map";
 import Footer from "../../components/Footer/Footer";
+import bgimg from "../../assets/home-bg.png";
 const Home = () => {
   return (
     <div className="home-wrapper">
       <Navbar />
       <div className="home-screen-wrapper">
+        <h2 style={{ fontFamily: "Rage", fontWeight: 500 }}>Realizing the</h2>
+        <h1 style={{ fontFamily: "Red Hat Text", fontWeight: 600 }}>
+          DEVELOPMENT GOALS
+        </h1>
         <div>
-          <h2>Realizing the</h2> <h1>Development Goals</h1>
+          <img src={bgimg} alt="" />
         </div>
-        <a href="#ABOUT US" className="arrows">
-          <button>
-            <span class="m_scroll_arrows unu"></span>
-            <span class="m_scroll_arrows doi"></span>
-            <span class="m_scroll_arrows trei"></span>
-          </button>
-        </a>
       </div>
       <About />
       <VM />

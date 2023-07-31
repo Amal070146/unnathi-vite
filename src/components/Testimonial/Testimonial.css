@@ -45,6 +45,10 @@
   gap: 10px;
   justify-content: flex-end;
 }
+.person-name h2{
+  font-size: 26px;
+  font-weight: 500;
+}
 
 .person-name p {
   font-size: 0.8rem;
