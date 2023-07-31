@@ -9,6 +9,7 @@ import Gallery from "../../components/Testimonial/Gallery";
 import Map from "../../components/Map/Map";
 import Footer from "../../components/Footer/Footer";
 import bgimg from "../../assets/home-bg.png";
+import Swiper from "../../components/Testimonial/Slider";
 const Home = () => {
   return (
     <div className="home-wrapper">
@@ -26,7 +27,9 @@ const Home = () => {
       <VM />
       <Curious />
       <Gallery />
-      <Testimonial />
+      {/* <Testimonial /> */}
+
+      <Swiper />
       <Map />
       <Footer />
     </div>

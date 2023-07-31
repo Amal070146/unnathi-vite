@@ -19,13 +19,13 @@
 }
 
 .card {
-  min-width: 410px;
-  min-height: 280px;
+  min-width: 350px;
+  min-height: 270px;
   margin: 0 0px;
   width: 38vw;
   flex-shrink: 0;
-  height: 40vh;
-  padding: 3vh 5vw 0vh;
+  height: fit-content;
+  padding: 3vh 4.5vw 0vh;
   box-sizing: border-box;
   border-radius: 3px;
   display: flex;
@@ -46,6 +46,11 @@
   width: 100%;
   gap: 10px;
   justify-content: flex-end;
+}
+.card-name-img > :nth-child(2) {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
 }
 .person-name h2 {
   font-size: 26px;
@@ -70,9 +75,10 @@
   animation: slide infinite 25s linear;
 }
 
-.slider-wrapper img {
+.slider-wrapper > img {
   width: 100%;
   height: 300px;
+  object-fit: fill;
 }
 
 @keyframes slide {
@@ -112,17 +118,53 @@
 
 @media screen and (max-width: 1100px) {
   .wrapper {
-  
     width: 85%;
   }
-}@media screen and (max-width: 1970px) {
+}
+@media screen and (max-width: 970px) {
   .wrapper {
-  
-    width: 90%;
+    width: 95%;
   }
-}@media screen and (max-width: 450px) {
+}
+@media screen and (max-width: 780px) {
+  .card {
+    width: 450px;
+    height: 320px;
+    padding: 20px 20px 0vh;
+  }
+  .card > p {
+    font-size: 18px;
+  }
+
+  .person-name h2 {
+    font-size: 24px;
+  }
+}@media screen and (max-width: 570px) {
+  .card {
+    width: 400px;
+    height: 300px;
+  }
+  .card > p {
+    font-size: 17px;
+  }
+
+  .person-name h2 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 460px) {
   .wrapper {
-  
     width: 97%;
+  }
+  .card {
+    width: 360px;
+    height: 270px;
+  }
+   .card > p {
+    font-size: 15px;
+  }
+
+  .person-name h2 {
+    font-size: 20px;
   }
 }
