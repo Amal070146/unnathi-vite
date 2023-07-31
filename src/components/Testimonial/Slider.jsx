@@ -5,11 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import 'swiper/css/pagination';
 
 import "./Slider.css";
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import img1 from "../../assets/testimonial/img1.png";
 import img2 from "../../assets/testimonial/img2.png";
 import img3 from "../../assets/testimonial/img3.png";
@@ -56,7 +57,14 @@ const Slider = () => {
   ];
   return (
     <div className="slider">
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper
+        navigation={true}
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Navigation, Pagination]}
+        className="mySwiper"
+      >
         {" "}
         {data.map(({ image, designation, name, content }, i) => (
           <SwiperSlide>
@@ -74,7 +82,7 @@ const Slider = () => {
               </div>
             </div>{" "}
           </SwiperSlide>
-        ))}
+        ))}{" "}
       </Swiper>
     </div>
   );
