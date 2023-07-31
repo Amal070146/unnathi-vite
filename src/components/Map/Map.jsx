@@ -4,14 +4,12 @@ import "./Map.css";
 const Map = () => {
   return (
     <div className="map-wrapper">
-      <div>
+      <div className="map-wrap">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1972.6601442049277!2d76.9439842!3d8.565169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05b91e8f40e879%3A0x3c51eb6bf846806b!2sAmbedkar%20Bhavan!5e0!3m2!1sen!2sin!4v1690675169283!5m2!1sen!2sin"
           style={{
             border: "0",
-            width: "100%",
-            maxWidth: "100vw",
-            height: "45vh",
+
             borderRadius: "0px",
           }}
           allowfullscreen=""
@@ -19,17 +17,15 @@ const Map = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div>
-        <div>
+      <div className="map-section-right-wrapper">
+        <div className="contact-first-sect">
           <h1>
             Get In <span style={{ color: "white" }}>Touch</span>
           </h1>
-          <p>
-            Connect with us this is just a sample data for reference. This
-            should be atleast two sentences.
-          </p>
+          <p>Connect with us this is just a sample data for reference.
+          <span> This should be atleast two sentences.</span></p>
         </div>
-        <div>
+        <div className="contact-second-sect">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +39,7 @@ const Map = () => {
                 fill="black"
               />
             </svg>
-            <div>
+            <div className="phone-no">
               <a href="">91 00000 00000</a>
               <a href="">0485 0000 000</a>
             </div>
@@ -61,7 +57,7 @@ const Map = () => {
                 fill="black"
               />
             </svg>
-            <div>
+            <div className="phone-no">
               <a href="mailto:info@unnathikerala.org">info@unnathikerala.org</a>
               <a href="mailto:offce@unnathikerala.org">
                 offce@unnathikerala.org
@@ -81,10 +77,12 @@ const Map = () => {
                 fill="black"
               />
             </svg>
-            <p>Ambedkar Bhavan, Thiruvananthapuram, Kerala</p>
+            <p className="phone-no">
+              Ambedkar Bhavan,<br></br> Thiruvananthapuram, Kerala
+            </p>
           </div>
         </div>
-        <div>
+        <div className="contact-third-sect">
           <div className="contact-social-media-icons">
             <a href="">
               <svg
