@@ -9,10 +9,12 @@
 
 .about-home-img-wrap{
     width:50%;
-    height: 400px;
-    background-color: black;
 }
-
+.about-home-img-wrap >img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 .about-home-content-wrap{
     width: 50%;
 }
@@ -40,13 +42,13 @@ font-weight: 600;
 font-size: 40px;
 }
 .about-home-content-wrap p{
-    font-size: 16px;
+    font-size: 14px;
 }
 }
 @media screen and (max-width: 760px){
 .about-home-wrapper{
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .about-home-img-wrap,.about-home-content-wrap{
     width: 90%;

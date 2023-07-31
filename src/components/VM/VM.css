@@ -75,6 +75,9 @@
   width: 220px;
   text-align: center;
 }
+.colaborator-stages-wrapper .spl-vm-container{
+  width: 270px;
+}
 .colaborator-individual-content-top {
   display: flex;
   justify-content: space-between;

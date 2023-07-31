@@ -1,11 +1,12 @@
 import React from 'react'
 import './About.css'
+import img from '../../assets/about-img.png'
 
 const About = () => {
   return (
     <div className="about-home-wrapper" id="ABOUT-US">
       <div className="about-home-img-wrap">
-        <img src="" alt="" />
+        <img src={img} alt="" />
       </div>
       <div className="about-home-content-wrap">
         <h1>
