@@ -20,8 +20,8 @@ const Navbar = () => {
 
   const path = useReactPath();
   const navContent = [
-    "ABOUT-US",
-    "GOVERNING-BODY",
+    "ABOUT US",
+    "GOVERNING BODY",
     "MEDIA",
     "PARTNERS",
     "DONATE",

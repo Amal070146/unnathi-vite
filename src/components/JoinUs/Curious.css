@@ -46,7 +46,10 @@
   justify-content: center;
   width: fit-content;
 }
-
+.curious-buttons:hover{
+  border: 1px solid transparent;
+  background-color: #FFF6E0;
+}
 .curious-buttons h1 {
   font-weight: 500;
   font-size: 35px;

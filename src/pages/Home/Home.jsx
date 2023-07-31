@@ -16,7 +16,7 @@ const Home = () => {
         <div>
           <h2>Realizing the</h2> <h1>Development Goals</h1>
         </div>
-        <a href="#ABOUT-US" className="arrows">
+        <a href="#ABOUT US" className="arrows">
           <button>
             <span class="m_scroll_arrows unu"></span>
             <span class="m_scroll_arrows doi"></span>

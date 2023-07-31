@@ -17,7 +17,7 @@
   font-size: 20px;
 }
 .vm-svg {
-  border: 1px solid #FBBA16;
+  border: 3px solid #FBBA16;
   border-radius: 50%;
   height: fit-content;
   display: flex;

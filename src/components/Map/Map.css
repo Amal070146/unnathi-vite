@@ -2,58 +2,28 @@
   width: 100%;
   height: fit-content;
 }
-
-.map-overlapper {
+.contact-social-media-icons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin-top: -38vh;
-  z-index: 7000;
-  right: 10%;
-  background-color: #fbba16;
-  border-radius: 20px;
-  padding: 5vh 3vw;
-  gap: 15px;
+  gap: 2px;
 }
-
-.map-overlapper h1 {
-  font-weight: 600;
-  height: fit-content;
+.contact-social-media-icons>a{
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 10px;
+  max-width: 50px;
+  max-height: 50px;
+  display: grid;
+  place-items: center;
 }
-
-.map-overlapper a {
-  color: black;
+.contact-social-media-icons>a:hover{
+  background-color: rgb(255, 255, 255);
+}
+.contact-button-brousher {
+  background-color: black;
+  color: white;
   display: flex;
-}
-
-.flex-gap10 {
-  display: flex;
-  gap: 10px;
-}
-.brouchure {
-  background-color: #ffffff;
-  padding: 10px 10px;
-  border-radius: 8px;
-  font-size: 15px;
-}
-
-@media screen and (max-width: 850px) {
-  .map-overlapper {
-    position: relative;
-    margin-top: 0vh;
-    max-width: 300px;
-    right: 0;
-    align-self: center;
-  }
-  .map-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    gap: 10px;
-  }
-  iframe {
-    width: 100vw;
-  }
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 8px 10px;
+  gap: 5px;
 }
