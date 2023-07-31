@@ -28,6 +28,16 @@
 
   border-bottom: 18px solid #fbba16;
 }
+@media screen and (max-width: 880px) {
+  .home-screen-wrapper h2 {
+    font-size: 7vw;
+  }
+  .home-screen-wrapper h1 {
+    font-size:8vw;
+    height: 55px;
+    border-bottom: 12px solid #fbba16;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .home-screen-wrapper h2 {
@@ -35,7 +45,7 @@
   }
   .home-screen-wrapper h1 {
     font-size: 40px;
-    height: 50px;
+    height: 40px;
     border-bottom: 12px solid #fbba16;
   }
 }
@@ -45,7 +55,7 @@
   }
   .home-screen-wrapper h1 {
     font-size: 35px;
-    height: 42px;
+    height: 35px;
     border-bottom: 10px solid #fbba16;
   }
 }

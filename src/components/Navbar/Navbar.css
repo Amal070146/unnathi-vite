@@ -10,13 +10,14 @@
   background-color: white;
   position: fixed;
   z-index: 9999;
-  justify-content: space-between;
+  justify-content: center;
 }
 .nav-logo {
   width: 90px;
 }
 .navbar-desk {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -30,10 +31,11 @@
   color: #FBBA16;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 880px) {
   .navbar-mob {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
   }
   .navbar-desk {
     display: none;

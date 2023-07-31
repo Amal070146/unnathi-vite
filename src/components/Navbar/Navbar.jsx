@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 
 import React, { useEffect, useState } from "react";
 import { BiMenu } from "react-icons/bi";
-import {RxCross1} from 'react-icons/rx'
+import { RxCross1 } from "react-icons/rx";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { useReactPath } from "./path.hook";
 
@@ -21,10 +21,11 @@ const Navbar = () => {
   const path = useReactPath();
   const navContent = [
     "ABOUT-US",
-    "PROJECTS",
     "GOVERNING-BODY",
+    "MEDIA",
     "PARTNERS",
     "DONATE",
+    "PROJECTS",
   ];
   useEffect(() => {}, [path]);
   const changeNavBg = () => {
@@ -40,11 +41,27 @@ const Navbar = () => {
   return (
     <div className="navbar-wrapper">
       <div className="navbar">
-        <a href="/">
-          <img className="nav-logo" src={logo} alt="" />
-        </a>
         <div className="navbar-desk">
-          {navContent.map((content, i) => (
+          {navContent.slice(0, 3).map((content, i) => (
+            <a href={`#${content}`} key={i.toString() + content}>
+              <p
+                style={{
+                  color: window.location.href.includes(`#${content}`)
+                    ? "#FBBA16"
+                    : "",
+                  textTransform: "capitalize",
+                  padding: "5px 10px",
+                  borderRadius: "20px",
+                }}
+              >
+                {content}
+              </p>
+            </a>
+          ))}
+          <a href="/">
+            <img className="nav-logo" src={logo} alt="" />
+          </a>
+          {navContent.slice(3, 6).map((content, i) => (
             <a href={`#${content}`} key={i.toString() + content}>
               <p
                 style={{
@@ -62,6 +79,9 @@ const Navbar = () => {
           ))}
         </div>
         <div className="navbar-mob">
+          <a href="/">
+            <img className="nav-logo" src={logo} alt="" />
+          </a>
           <button
             style={{ backgroundColor: "transparent", border: "none" }}
             onClick={openMenu}
