@@ -19,11 +19,15 @@
 }
 
 .curious-content-wrapper > div {
-  padding: 10px 20px;
+  padding: 8px 18px;
   border-radius: 20px;
   background-color: #ffd56c;
+  border: 2px solid #ffd56c;
 }
-
+.curious-content-wrapper > div:hover{
+   background-color: #ffffff;
+   color: #ffd56c;
+}
 .curious-button-wrapper {
   display: flex;
   gap: 30px;
@@ -37,10 +41,10 @@
   padding: 40px 20px;
   border-radius: 20px;
   border: 1px solid #c3c3c3;
-  gap: 4vw;
+  gap: 2vw;
   align-items: center;
   justify-content: center;
-  width: 35vw;
+  width: fit-content;
 }
 
 .curious-buttons h1 {
@@ -76,6 +80,14 @@
     gap: 2vw;
 
     width: fit-content;
+    min-width: 420px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .curious-buttons {
+    padding: 30px 20px;
+
+   justify-content: space-between;
     min-width: 420px;
   }
 }
