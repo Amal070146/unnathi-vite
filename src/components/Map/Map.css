@@ -126,6 +126,8 @@
   .map-section-right-wrapper {
     width: 100%;
     padding: 5vh 4vw;
+    font-size: 14px;
+
 
   }
   .map-section-right-wrapper{
@@ -133,5 +135,6 @@
   }
    .contact-second-sect {
     gap: 20px;
+    font-size: 14px;
   }
 }
