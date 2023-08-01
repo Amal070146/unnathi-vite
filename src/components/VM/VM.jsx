@@ -20,7 +20,7 @@ const VM = () => {
               />
             </svg>
           </div>
-          <div>
+          <div className="vm-content-wrapper">
             <h2>Vision</h2>
             <p>
               Kerala Empowerment Society envisions a thriving, inclusive
@@ -48,7 +48,7 @@ const VM = () => {
               />
             </svg>
           </div>
-          <div>
+          <div className="vm-content-wrapper">
             <h2>Mission</h2>
             <p>
               Empowering communities through co-creative collaboration,
