@@ -11,6 +11,7 @@
   position: fixed;
   z-index: 9000;
   justify-content: center;
+  top: 0;
 }
 .nav-logo {
   width: 90px;
