@@ -38,6 +38,7 @@
 }
 .card > p {
   font-size: 1.5vw;
+  text-align: left;
 }
 
 .card-name-img {
@@ -163,14 +164,18 @@
     width: 97%;
   }
   .card {
-    width: 360px;
-    height: 270px;
+    width: 350px;
+    height: 230px;
+    min-height: 200px;
   }
    .card > p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .person-name h2 {
-    font-size: 20px;
+    font-size: 17px;
+  }
+  .person-name p{
+    font-size: 10px;
   }
 }

@@ -22,9 +22,11 @@
 .about-home-content-wrap h1{
 font-size: 70px;
 font-weight: 600;
+text-align: left;
 }
 .about-home-content-wrap p{
     font-size: 20px;
+    text-align: left;
 }
 
 @media screen and (max-width: 1450px) {
