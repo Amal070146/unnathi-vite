@@ -4,7 +4,7 @@ import "./VM.css";
 const VM = () => {
   return (
     <>
-      <div className="vm-wrapper">
+      <div className="vm-wrapper" data-aos="fade-left">
         <div className="vm-individual">
           <div className="vm-svg">
             <svg
@@ -58,7 +58,7 @@ const VM = () => {
           </div>
         </div>
       </div>
-      <div className="collaborate-wrap">
+      <div className="collaborate-wrap" data-aos="fade-right">
         <div className="collaborator-header">
           <h1>
             Converge, <span className="color-font">Collaborate</span> &

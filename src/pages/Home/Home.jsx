@@ -10,6 +10,9 @@ import Map from "../../components/Map/Map";
 import Footer from "../../components/Footer/Footer";
 import bgimg from "../../assets/home-bg.png";
 import Swiper from "../../components/Testimonial/Slider";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const Home = () => {
   return (
     <div className="home-wrapper">

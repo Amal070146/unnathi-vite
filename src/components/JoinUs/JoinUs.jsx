@@ -3,7 +3,7 @@ import "./Curious.css";
 
 const Curious = () => {
   return (
-    <div className="curious-wrapper">
+    <div className="curious-wrapper" data-aos="fade-left">
       <h1>
         <span className="color-font">Join</span> Us
       </h1>
