@@ -1,10 +1,10 @@
 .navbar-wrapper {
   display: flex;
-  width: 100%;
+  width: 100vw;
 }
 .navbar {
   display: flex;
-  width: 100%;
+  width: 100vw;
   padding: 1.5vh 3vw;
   align-items: center;
   background-color: white;
@@ -37,7 +37,7 @@
   .navbar-mob {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
   }
   .navbar-desk {
     display: none;

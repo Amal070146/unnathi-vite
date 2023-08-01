@@ -25,9 +25,13 @@
   height: 100%;
   object-fit: cover;
 }
-.swiper-button-next,
-.swiper-button-prev {
-  color: #bdbbbb; /* Your desired navigation color */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #bdbbbb; 
+  font-size: 25px; 
+  line-height: 1;
+  width: 25px !important; 
+  height: 25px !important;
 }
 .swiper-pagination-bullet {
   background-color: #FBBA16; /* Your desired dot color */
