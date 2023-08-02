@@ -1,0 +1,144 @@
+.map-wrapper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  height: 50vh;
+}
+.map-wrap {
+  width: 60%;
+  height: 100%;
+}
+.map-wrap iframe {
+  width: 100%;
+  height: 100%;
+}
+.map-section-right-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 6vh 5vw;
+  font-size: 16px;
+  justify-content: space-between;
+  background: url("../../assets/bg-map.png") center center/cover no-repeat;
+}
+
+.contact-first-sect {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contact-first-sect h1{
+  font-weight: 600;
+}
+.contact-second-sect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contact-second-sect > div {
+  display: flex;
+  gap: 10px;
+}
+.phone-no {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+.contact-second-sect a {
+  color: black;
+}
+.contact-second-sect a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.contact-third-sect {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.contact-social-media-icons {
+  display: flex;
+  gap: 10px;
+}
+.contact-social-media-icons > a {
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 15px;
+  max-width: 50px;
+  max-height: 50px;
+  display: grid;
+  place-items: center;
+}
+.contact-social-media-icons > a:hover {
+  background-color: rgb(255, 255, 255);
+}
+.contact-button-brousher {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 8px 10px;
+  gap: 5px;
+}
+@media screen and (max-width: 1480px) {
+  .map-wrap {
+    width: 55%;
+  }
+  .map-section-right-wrapper {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .map-wrap {
+    width: 50%;
+  }
+  .map-section-right-wrapper {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .map-section-right-wrapper {
+    padding: 5vh 3vw;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .map-section-right-wrapper {
+    padding: 3vh 3vw;
+  }
+  .contact-second-sect {
+    gap: 10px;
+  }
+  .contact-social-media-icons > a {
+    padding: 10px;
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .map-wrapper {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .map-wrap {
+    width: 100%;
+  }
+  .map-section-right-wrapper {
+    width: 100%;
+    padding: 5vh 4vw;
+    font-size: 14px;
+
+
+  }
+  .map-section-right-wrapper{
+    gap: 20px;
+  }
+   .contact-second-sect {
+    gap: 20px;
+    font-size: 14px;
+  }
+}
