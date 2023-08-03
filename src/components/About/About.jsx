@@ -1,10 +1,10 @@
-import React from 'react'
-import './About.css'
-import img from '../../assets/about-img.png'
+import React from "react";
+import "./About.css";
+import img from "../../assets/about-img.png";
 
 const About = () => {
   return (
-    <div className="about-home-wrapper" id="ABOUT US">
+    <div className="about-home-wrapper" id="ABOUT US" >
       <div className="about-home-img-wrap">
         <img src={img} alt="" />
       </div>
@@ -24,6 +24,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

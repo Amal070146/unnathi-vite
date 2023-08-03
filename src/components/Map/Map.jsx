@@ -13,7 +13,7 @@ const Map = () => {
             borderRadius: "0px",
           }}
           allowfullscreen=""
-          loading="lazy"
+          
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>

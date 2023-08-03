@@ -12,6 +12,8 @@ import bgimg from "../../assets/home-bg.png";
 import Swiper from "../../components/Testimonial/Slider";
 
 const Home = () => {
+
+  
   return (
     <div className="home-wrapper">
       <Navbar />
@@ -26,7 +28,7 @@ const Home = () => {
       </div>
       <About />
       <VM />
-      <Curious />
+      <Curious  />
       <Gallery />
       {/* <Testimonial /> */}
 
