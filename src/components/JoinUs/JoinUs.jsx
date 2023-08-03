@@ -3,7 +3,7 @@ import "./Curious.css";
 
 const Curious = () => {
   return (
-    <div className="curious-wrapper" >
+    <div className="curious-wrapper">
       <h1>
         <span className="color-font">Join</span> Us
       </h1>
@@ -30,7 +30,7 @@ const Curious = () => {
       <div className="curious-button-wrapper">
         <div className="curious-buttons">
           <h1>Volunteering</h1>
-          <a href="">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5FgrM2Z72F0blVXNgx0Q1zNlR24_b0C7G4J5qAiOy7n_XUA/viewform">
             Apply
             <div>
               <svg
@@ -77,7 +77,7 @@ const Curious = () => {
         </div>
         <div className="curious-buttons">
           <h1>Internships</h1>
-          <a href="">
+          <a href="https://forms.gle/GV56Vb5D7qP6ZhcR6">
             Apply{" "}
             <div>
               <svg

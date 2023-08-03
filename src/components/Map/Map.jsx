@@ -60,10 +60,11 @@ const Map = () => {
               />
             </svg>
             <div className="phone-no">
-              <a href="mailto:info@unnathikerala.org">info@unnathikerala.org</a>
-              <a href="mailto:offce@unnathikerala.org">
-                offce@unnathikerala.org
+              <a href="mailto:office@unnathikerala.org">
+                office@unnathikerala.org
               </a>
+              <a href="mailto:info@unnathikerala.org">info@unnathikerala.org</a>
+              <a href="mailto:ceo@unnathikerala.org">ceo@unnathikerala.org</a>
             </div>
           </div>
           <div>
@@ -79,7 +80,7 @@ const Map = () => {
                 fill="black"
               />
             </svg>
-            <p className="phone-no" style={{textAlign:"left"}}>
+            <p className="phone-no" style={{ textAlign: "left" }}>
               Ambedkar Bhavan,<br></br> Thiruvananthapuram, Kerala
             </p>
           </div>
