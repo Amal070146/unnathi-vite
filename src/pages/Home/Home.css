@@ -13,6 +13,7 @@
   overflow: hidden;
   padding-top: 120px;
   justify-content: space-between;
+  background: url('../../assets/homebg.png') center top/contain no-repeat;
 }
 
 .home-heading-wrapper h1 {
@@ -53,6 +54,7 @@
   color: white;
   gap: 10px;
   justify-content: center;
+  cursor: pointer;
 }
 
 .home-slider-container {
@@ -84,6 +86,13 @@
   .home-button-outer {
 
   top: -20%;
+}
+}
+@media screen and (max-width: 1300px){
+.home-screen-wrapper {
+  
+  background: url('../../assets/homebg.png') center top/contain no-repeat;
+  background-size: cover;
 }
 }
 @media screen and (max-width: 780px) {

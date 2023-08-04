@@ -10,6 +10,7 @@ import Map from "../../components/Map/Map";
 import Footer from "../../components/Footer/Footer";
 import Swiper from "../../components/Testimonial/Slider";
 
+
 import img1 from "../../assets/home/one.png";
 import img2 from "../../assets/home/two.png";
 import img3 from "../../assets/home/three.png";
@@ -35,7 +36,13 @@ const Home = () => {
               <p>
                 EXPLORE<br></br>UNNATHI
               </p>
-              <button style={{ background: "transparent", border: "none" }}>
+              <button
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  cursor: "pointer",
+                }}
+              >
                 <span class="m_scroll_arrows unu"></span>
                 <span class="m_scroll_arrows doi"></span>
                 <span class="m_scroll_arrows trei"></span>
