@@ -1,6 +1,6 @@
 .about-home-wrapper {
   display: flex;
-  padding: 8vh 15vw;
+  padding: 8vh 13vw;
   gap: 5%;
   align-items: center;
   justify-content: space-between;
@@ -18,15 +18,20 @@
 }
 .about-home-content-wrap {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
 }
 
 .about-home-content-wrap h1 {
-  font-size: 65px;
+  font-size: 62px;
   font-weight: 600;
   text-align: left;
+  line-height: 1;
 }
 .about-home-content-wrap p {
-  font-size: 19px;
+  font-size: 18px;
   text-align: left;
   line-height: 1.4;
 }
@@ -38,6 +43,10 @@
   }
   .about-home-content-wrap p {
     font-size: 16px;
+  }
+   .about-home-img-wrap > img {
+    height: 370px;
+    object-fit: cover;
   }
 }
 

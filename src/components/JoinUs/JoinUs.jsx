@@ -4,29 +4,8 @@ import "./Curious.css";
 const Curious = () => {
   return (
     <div className="curious-wrapper">
-      <h1>
-        <span className="color-font">Join</span> Us
-      </h1>
-      <div className="curious-content-wrapper">
-        <div>
-          <p>Administrative Department</p>
-        </div>
-        <div>
-          <p>Technology Department</p>
-        </div>
-        <div>
-          <p>Human Resource Department</p>
-        </div>
-        <div>
-          <p>Finance Department</p>
-        </div>
-        <div>
-          <p>Project Department</p>
-        </div>
-        <div>
-          <p>Legal and Documentation Department</p>
-        </div>
-      </div>
+   
+      
       <div className="curious-button-wrapper">
         <div className="curious-buttons">
           <h1>Volunteering</h1>

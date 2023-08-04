@@ -8,27 +8,41 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import Gallery from "../../components/Testimonial/Gallery";
 import Map from "../../components/Map/Map";
 import Footer from "../../components/Footer/Footer";
-import bgimg from "../../assets/home-bg.png";
 import Swiper from "../../components/Testimonial/Slider";
 
 const Home = () => {
-
-  
   return (
     <div className="home-wrapper">
       <Navbar />
       <div className="home-screen-wrapper">
-        <h2 style={{ fontFamily: "Rage", fontWeight: 500 }}>Realizing the</h2>
-        <h1 style={{ fontFamily: "Red Hat Text", fontWeight: 600 }}>
-          DEVELOPMENT GOALS
-        </h1>
+        <div className="home-heading-wrapper">
+          <h1>
+            <span style={{ color: "red" }}>REALIZING</span>{" "}
+            <span style={{ fontWeight: 400 }}>
+              THE<br></br> DEVELOPMENT
+            </span>{" "}
+            <span style={{ color: "#FBBA16" }}>GOALS</span>
+          </h1>
+        </div>
         <div>
-          <img src={bgimg} alt="" />
+          <div className="home-button-outer">
+            <a href="#ABOUT US">
+              <p>EXPLORE<br></br>UNNATHI</p>
+              <button style={{ background: "transparent", border: "none" }}>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+               
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <About />
+
       <VM />
-      <Curious  />
+      <Curious />
+
       <Gallery />
       {/* <Testimonial /> */}
 
